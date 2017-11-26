@@ -53,9 +53,9 @@ def binomial_dist(prob, state, len_all_state):
     print(p1, "+", p2, "=", p1 + p2, end='\n')
     P = 2 * min(p1, p2)
     if P < alpha and P != alpha:
-        print("альтернативная гипотеза не принимаеться")
+        print("alternative hypothesis is not accepted")
     else:
-        print("альтернативная гипотеза принимаеться")
+        print("alternative hypothesis is accepted")
     print(P)
 
 
